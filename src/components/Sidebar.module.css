@@ -1,0 +1,125 @@
+.sidebar {
+  width: 280px;
+  background-color: var(--bg-sidebar);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 24px 20px;
+}
+
+.logo {
+  margin-bottom: 32px;
+}
+
+.logoTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+
+.logoSubtitle {
+  font-size: 13px;
+  color: var(--text-gray);
+}
+
+.newChatBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #eaf1ed;
+  color: var(--primary-color);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 32px;
+  transition: all 0.2s;
+}
+
+.newChatBtn:hover {
+  background-color: #d1e2da;
+}
+
+.historySection {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.historyTitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: #9ca3af;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.historyItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: var(--text-dark);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.historyItem:hover {
+  background-color: #f3f4f6;
+}
+
+.historyIcon {
+  color: var(--text-gray);
+}
+
+.bottomSection {
+  margin-top: auto;
+  padding-top: 24px;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settingsBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  color: var(--text-dark);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.upgradeBox {
+  background-color: #ccfbf1; /* light teal */
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.upgradeText {
+  font-size: 13px;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.upgradeBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}

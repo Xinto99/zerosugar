@@ -1,0 +1,78 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--bg-main);
+  background-image: radial-gradient(circle at center, rgba(4,108,78,0.02) 0%, transparent 70%);
+}
+
+.chatArea {
+  flex: 1;
+  overflow-y: auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chatContainer {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputArea {
+  padding: 0 40px 40px 40px;
+  width: 100%;
+}
+
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 24px 40px 0 40px;
+  gap: 16px;
+}
+
+.iconBtn {
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+.loadingLogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.loadingLogoText {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-light);
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.loadingSubtitle {
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.loadingDesc {
+  font-size: 13px;
+  color: var(--text-gray);
+}

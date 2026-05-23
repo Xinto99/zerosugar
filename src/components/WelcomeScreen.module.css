@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  padding: 40px;
+}
+
+.logoIcon {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.leaf {
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.3;
+  margin-bottom: 24px;
+  white-space: pre-line;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--text-gray);
+  max-width: 500px;
+  line-height: 1.5;
+  margin-bottom: 48px;
+  white-space: pre-line;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

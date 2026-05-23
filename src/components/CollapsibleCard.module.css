@@ -1,0 +1,62 @@
+.card {
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  margin-top: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 12px;
+  background-color: var(--badge-green-bg);
+  color: var(--badge-green-text);
+  text-transform: uppercase;
+}
+
+.badge.synthetic {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.chevron {
+  color: var(--text-gray);
+  transition: transform 0.2s;
+}
+
+.chevron.open {
+  transform: rotate(180deg);
+}
+
+.content {
+  padding: 0 20px 20px 20px;
+  border-top: 1px solid var(--border-color);
+  margin-top: 8px;
+  padding-top: 20px;
+}
